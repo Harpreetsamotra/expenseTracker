@@ -128,7 +128,7 @@ export default function ExpenseForm({
         onChange={handleChange}
         error={errors.amount}
       />
-      <button className="add-btn">{editingRowId ? 'Save' : 'Add'}</button>
+      <button className="add-btn" id="save-btn">{editingRowId ? 'Save' : 'Add'}</button>
     </form>
   )
 }
